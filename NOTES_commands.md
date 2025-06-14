@@ -44,8 +44,6 @@ This reveals the structured internal representation of a commit object, includin
 > * For a **commit**, it outputs metadata (author, committer, tree) and the log message.
 > * For a **tree**, it enumerates file entries, associated blobs, permissions, and subordinate trees.
 > * For a **blob**, it renders the raw file content.
->
-> In contrast, omitting `-p` causes Git to return only the type classification of the object (e.g., `commit`, `tree`, `blob`).
 
 ### Examining a Tree Object
 
