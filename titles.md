@@ -6,3 +6,4 @@
 - The Big Short
 - 12 Monkeys
 - Harry Potter
+- Pokemon
