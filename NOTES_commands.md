@@ -74,3 +74,18 @@ In Git, commands are categorized into two conceptual layers:
 
 Understanding this distinction enables deeper insight into Git's architecture and facilitates advanced diagnostics and customization.
 
+I am gonna write stuf dow and ask gpt in end to create  perfect notes in these 
+
+-> explain merge process with a graph example
+
+git branch -> gives name of available branches and current branch
+git switch -c <branch_name> -> this switches branches and "-c" creates branch if not existing
+
+git log --oneline --graph --all
+explain this command in short but dont give examples, just flags and other most used flags
+
+git merge new-branch-adding-a-random-file --no-edit
+comment on this command and give what no editor do, dont give examples
+
+-> when you are on a branch then the editor (vscode, vim, etc), also just shows the file intended in that branch.
+
