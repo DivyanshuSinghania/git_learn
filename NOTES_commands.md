@@ -76,6 +76,7 @@ Understanding this distinction enables deeper insight into Git's architecture an
 
 I am gonna write stuf dow and ask gpt in end to create  perfect notes in these 
 
+## Merging and branching
 -> explain merge process with a graph example
 
 git branch -> gives name of available branches and current branch
@@ -88,4 +89,15 @@ git merge new-branch-adding-a-random-file --no-edit
 comment on this command and give what no editor do, dont give examples
 
 -> when you are on a branch then the editor (vscode, vim, etc), also just shows the file intended in that branch.
+
+git branch -d add_classics
+delets a branch, after merge, delete  the brach, its not deleted automatically if in future the branch is needed
+
+## Rebase
+"Rebase vs Merge" is one of the most hotly debated topics in the Git world. A lot of the discussions you'll see online come down to the fact that many developers (yes, even professionals) don't understand the purpose of rebase and use it incorrectly, causing a bunch of Git havoc, and then blame the rebase command.
+It's not Git's fault, it's a skill issue.
+state to not use rebase on a shared branch without causion, give reason too in short without any exapmles
+
+git switch -c update_dune COMMITHASH
+this branches off from a specific commit from its hash, see logs and tree for the exact commit you would branch off
 
