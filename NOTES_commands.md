@@ -90,7 +90,7 @@ comment on this command and give what no editor do, dont give examples
 
 -> when you are on a branch then the editor (vscode, vim, etc), also just shows the file intended in that branch.
 
-git branch -d add_classics
+git branch -d Branch_name
 delets a branch, after merge, delete  the brach, its not deleted automatically if in future the branch is needed
 
 ## Rebase
@@ -101,3 +101,11 @@ state to not use rebase on a shared branch without causion, give reason too in s
 git switch -c update_dune COMMITHASH
 this branches off from a specific commit from its hash, see logs and tree for the exact commit you would branch off
 
+git rebase main
+get your "current" branch to upto date with "main"
+
+## Reset
+git reset --soft <commit_hash> -> saves the changes in staged area while rolling back the commit
+git reset --hard <commit_hash> -> it rolls back the branch and remove every thing, no staged files left
+
+## Git Remote
