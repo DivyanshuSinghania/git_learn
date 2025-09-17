@@ -173,4 +173,6 @@ This is a text snippet for what a github flow should be, so make points and be s
 tell about scope of .gitignore
 and make notes of patterns like use of "*", "/", "!", order of operations, comments, etc make notes short and no example needed.
 
-
+## Restore
+git restore --staged <file> -> this unstages the changes ("add")
+git restore --staged . -> this unstages all the additions.
